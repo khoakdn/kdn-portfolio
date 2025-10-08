@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview --port 5173"
   },
-  "engines": { "node": ">=18.0.0" },
+  "engines": { "node": "20.x" },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
