@@ -1,31 +1,82 @@
 [
   {
+    "slug": "federai-website",
+    "title": "FederAI \u2014 Federated Learning Showcase",
+    "role": [
+      "Frontend",
+      "UX",
+      "Content"
+    ],
+    "year": 2025,
+    "stack": [
+      "HTML/CSS/JS",
+      "Figma"
+    ],
+    "summary": "Simple site + short video explaining Federated Learning, showcasing student posters and research from ART-IE.",
+    "hero": "/images/federai-hero.svg",
+    "tags": [
+      "uiux",
+      "web",
+      "research"
+    ]
+  },
+  {
     "slug": "eindhoven-housing-viz",
     "title": "Eindhoven Housing Visualization",
-    "role": ["Frontend", "Data Viz"],
+    "role": [
+      "Frontend",
+      "Data Viz"
+    ],
     "year": 2025,
-    "stack": ["HTML/CSS/JS", "Leaflet", "Three.js"],
+    "stack": [
+      "HTML/CSS/JS",
+      "Leaflet",
+      "Three.js"
+    ],
     "summary": "Interactive maps to help expats compare neighborhoods by price, schools, parks, and amenities.",
     "hero": "/images/housing-hero.svg",
-    "tags": ["uiux", "web", "data-viz"]
+    "tags": [
+      "uiux",
+      "web",
+      "data-viz"
+    ]
   },
   {
     "slug": "jsl-website-redesign",
     "title": "JSL3 Website Redesign (Ambianti Internship)",
-    "role": ["Frontend", "UX"],
+    "role": [
+      "Frontend",
+      "UX"
+    ],
     "year": 2025,
-    "stack": ["JSL3", "HTML/CSS/JS", "Figma"],
-    "summary": "Redesigned the JSL3 website to improve navigation, onboarding, and learning tools—adding search, beginner guides, and a live Playground. Usability tests showed faster tasks and 100% completion.",
+    "stack": [
+      "JSL3",
+      "HTML/CSS/JS",
+      "Figma"
+    ],
+    "summary": "Redesigned the JSL3 website to improve navigation, onboarding, and learning tools\u2014adding search, beginner guides, and a live Playground. Usability tests showed faster tasks and 100% completion.",
     "hero": "/images/homejsl.png",
-    "tags": ["uiux", "web", "research"]
+    "tags": [
+      "uiux",
+      "web",
+      "research"
+    ]
   },
   {
     "slug": "design-system-seed",
     "title": "Design System Seed",
-    "role": ["Frontend"],
+    "role": [
+      "Frontend"
+    ],
     "year": 2024,
-    "stack": ["React", "Tailwind"],
+    "stack": [
+      "React",
+      "Tailwind"
+    ],
     "summary": "A small, scalable set of UI primitives with tokens, states, and a11y baked in.",
-    "tags": ["uiux", "web"]
+    "tags": [
+      "uiux",
+      "web"
+    ]
   }
 ]

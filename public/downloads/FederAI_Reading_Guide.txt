@@ -1,0 +1,514 @@
+Reading Guide - Federated Learning Project
+
+Showcasing Federated Learning: Video Production & Website Development
+
+
+
+1. Background
+
+Project Summary
+
+In this project, Desislava and I (Khoa) are working together on a Federated Learning showcase. We are developing both a short video and an informative website to explain what Federated Learning is and how students are using it in real-life projects. Our main stakeholders are Pu, Danny, and Marcel, who are part of the Art-IE research initiative from Fontys and Odisee. 
+The project will result in:
+
+
+
+
+
+A 2–3 minute engaging video that answers the question “What is Federated Learning?”
+
+
+
+A functional website that contains visuals, learning content, student posters, use cases, and outcomes of FL projects
+
+DEMO | https://federai.netlify.app/
+
+Innovation Insight registration | https://www.fontysictinnovationlab.nl/innovations-insight/projects-eindhoven/showcasing-federated-learning-video-production-website-development/
+
+Problem Statement
+
+Even though Federated Learning is a growing trend in AI, many students and professionals don’t know how it works or how it’s applied. Stakeholders from the Art-IE project need a simple but professional way to showcase this knowledge and the student work being done in this field.
+
+How We Organized the Project
+
+We followed the Double Diamond method with four phases: Discover, Define, Develop, and Deliver. This structure helped us organize our research, design, and development work across a 3-month period (April to June), working 8 hours per week.
+
+
+
+
+
+Discover & Define - April
+
+
+
+
+
+Met with stakeholders to learn what the website and video should do
+
+
+
+Researched how FL is explained in other platforms (e.g. Google, universities)
+
+
+
+Mapped user needs and project scope
+
+
+
+Defined key content, timelines, and tools
+
+
+
+
+
+Develop - May
+
+
+
+
+
+Desislava worked on writing the script, choosing visual styles, and editing a rough video draft
+
+
+
+I worked on designing the website structure and starting development using HTML, CSS, and JavaScript
+
+
+
+We gave each other feedback weekly and shared progress with stakeholders
+
+
+
+We collected and cleaned up content like posters, use cases, and data diagrams
+
+
+
+
+
+Deliver - June
+
+
+
+
+
+Finalized and published the website
+
+
+
+Edited and exported the final version of the video
+
+
+
+Integrated student results and visual content
+
+
+
+Prepared for the final showcase at Innovation Inside Day (June 27th)
+
+We followed a detailed Project Plan @Project Plan FL and Microsoft Teams + WhatsApp for team/mentor/stakeholder communication.
+
+
+
+2. Research
+
+Research Objective
+
+To explore how to clearly and visually communicate the concept of Federated Learning to a broad audience through a short video and website.
+
+Main Research Question
+
+
+
+How can we present Federated Learning and student project results in a clear, engaging, and informative way through a website and video?
+
+Sub-Research Questions
+
+
+
+
+
+What key messages and visuals best explain Federated Learning to general audiences?
+→ We study how to simplify technical content using animation, narration, and comparisons.
+
+
+
+How do we ensure the video is both educational and engaging?
+→ We explore storytelling, tone, length, and pacing through benchmarking and feedback.
+
+
+
+What website structure supports both showcasing and learning?
+→ We test navigation, layout, and content placement to support quick understanding and deep dives.
+
+
+
+What content (student posters, use cases, demos) needs to be integrated?
+→ We collect relevant material and organize it in a way that shows progression and outcomes.
+
+
+
+How do we ensure the platform is accessible and works well technically?
+→ We follow best practices in responsive web design and test across different browsers and devices.
+
+Target Audience
+
+
+
+
+
+Students and teachers interested in Federated Learning and AI
+
+
+
+Researchers and partners from Fontys and Odisee
+
+
+
+General public or SMEs wanting to learn more about AI and Federated Learning
+
+
+
+3. Process (Double Diamond)
+
+Phase 1: Discover | April
+
+
+
+
+
+Objective: Understand the context, user needs, and current gaps in how Federated Learning is explained, especially to non-experts.
+
+
+
+Research Question: What are the best ways to communicate the concept of Federated Learning to a broad audience through video and a website?
+
+
+
+Approach & Methods: Stakeholder interviews, benchmarking analysis, literature review
+
+
+
+Tasks:
+
+
+
+
+
+Stakeholder Interviews & Alignment @Interview Report FL (Team) - Reason: Talking with Pu, Danny, and Marcel helped us understand the goals and expectations for this project. It also gave us insight into the challenges they faced in explaining FL clearly and engagingly in past sessions.
+
+
+
+Literature & Video Review (Desislava) - Reason: Looked at how Federated Learning is introduced in articles, videos, and public talks. This helped identify common explanations, visual tools, and simplification strategies that work well.
+
+
+
+Literature Analysis: What is Federated Learning? @Literature Analysis FL (Khoa) - Reason: I analyzed documents and academic articles to deeply understand the foundations of Federated Learning and how it is communicated in various formats.
+
+
+
+Results: We identified that most Federated Learning explanations online are either too technical or too abstract. There’s a clear need for a version that is visual, brief, and aligned with real use cases - especially student-driven projects. Stakeholders also emphasized the need to connect the video and website clearly, so they support each other.
+
+
+
+Conclusion: To build a strong foundation, we must define a focused message that makes Federated Learning understandable for new audiences, and a structure that connects storytelling with student results.
+
+
+
+Next Step: Move on to the Define phase to shape the script, structure, and key content for both the video and website.
+
+Phase 2: Define | April
+
+
+
+
+
+Objective: Clearly define the project scope, key content, and responsibilities to ensure the video and website support the communication goals effectively.
+
+
+
+Research Question: What core content, structure, and roles are needed to present Federated Learning clearly and connect all materials across video and web?
+
+
+
+Approach & Methods: Content planning, storyboarding, role assignment, and structural mapping
+
+
+
+Tasks:
+
+
+
+
+
+Benchmarking Educational Platforms @Benchmarking FL (Khoa) - Reason: I explored how other platforms (like Google’s AI hub or research project sites) explain technical topics to learners. This gave me useful inspiration for our own structure, visuals, and tone of voice.
+
+
+
+Sketches @Sketches FL (Team) - Reason: We used rough sketches to visualize the video and website layout. This helped align our ideas and explore different visual directions before committing to production.
+
+
+
+Task & Role Division (Team) - Reason: We decided to divide the work based on our strengths: Desislava focuses on video production, and I (Khoa) focus on web development. This way, we can work in parallel and stay efficient throughout the project. Results: We built a clear content outline and project plan. The video will focus on explaining Federated Learning in a simple, visual way. The website will showcase student projects and provide supporting materials. Our roles and workflow were also clarified, which allowed us to move forward with more focus.
+
+
+
+Results: We built a clear content outline and project plan. The video will focus on explaining Federated Learning in a simple, visual way. The website will showcase student projects and provide supporting materials. Our roles and workflow were also clarified, which allowed us to move forward with more focus.
+
+
+
+Conclusion: By defining the scope, roles, and structure early on, we made sure that both the video and website stay aligned with our goals and are manageable within the time available.
+
+
+
+Next Step: Move into the Develop phase by starting scriptwriting, prototyping, and early production work.
+
+Phase 3: Develop | May
+
+
+
+
+
+Objective: Build and test the first working versions of both the video and website to get early feedback and refine our ideas.
+
+
+
+Research Question: How can we translate our content and structure into a clear, engaging prototype that communicates Federated Learning effectively?
+
+
+
+Approach & Methods: Scriptwriting, visual design, prototyping, stakeholder feedback
+
+
+
+Tasks:
+
+
+
+
+
+Scriptwriting & Visual Planning (Desislava) - Reason: Desislava created the first version of the video script and selected the visual style (animations, icons, voice-over) that would match the tone we discussed in earlier phases. This helped turn abstract explanations into something more visual and audience-friendly.
+
+
+
+Rough Video Cut (Desislava) - Reason: A first cut of the video was produced to test pacing, clarity, and engagement. This allowed us to show something concrete to stakeholders and check if our approach was on the right track.
+
+
+
+Website Development | Initial version @Technical Report FL Initial (Khoa) - Reason: I designed the layout began building the front-end in HTML/CSS/JS. This gave us a working version of the website that stakeholders could click through and comment on.
+
+
+
+Feedback Round: Mid-Review Meeting @Mid-Review Feedback Report FL (Team & Stakeholders) - Reason: We attended a feedback session to test both the video cut and website draft. Stakeholders gave us specific tips on tone, visual clarity, and how to better connect the website with the video content.
+
+
+
+Name & Logo Design @Name and Logo Report FL (Team) - Reason: We explored different names and logos to brand the project. A good name helps make the platform more memorable and the logo supports visual identity.
+
+
+
+Results: We created first drafts of both deliverables, identified areas to improve, and collected valuable input from our mentors and partners. This allowed us to adjust our direction before moving to final production.
+
+
+
+Conclusion: Prototyping early helped us avoid last-minute changes and align our work with stakeholder expectations. It also gave us more confidence in our design and content choices.
+
+
+
+Next Step: Finalize the deliverables in the Deliver phase—refine visuals, add missing content, and get ready for public presentation.
+
+Phase 4: Deliver | June
+
+
+
+
+
+Objective: Finalize all deliverables and prepare for the final presentation at Fontys Innovation Inside Day.
+
+
+
+Research Question: How can we present our final results in a clear and professional way that highlights both the concept of Federated Learning and student contributions?
+
+
+
+Approach & Methods: Final editing, web development, content integration, public presentation
+
+
+
+Tasks:
+
+
+
+
+
+Finalize & Export Video (Desislava) - Reason: Desislava refined the visuals, adjusted the pacing, and added narration and transitions to complete the final version of the video. This ensured the story of FL is told in a simple and engaging way for all viewers.
+
+
+
+Website Development | Final version & Deployment @Final Technical Report FL (Khoa) - Reason: I completed the front-end development and deployed the website using Netlify. This version included all visual and structural improvements based on earlier feedback and was tested for responsiveness and accessibility.
+
+
+
+Usability Testing @Usability Testing Report FL (Khoa) - Reason: I tested the nearly completed website with three students to gather feedback, suggestions, and usability improvements. Their input helped refine the navigation, readability, and clarity of the platform before the final release.
+
+
+
+README File @README FL (Khoa) -Reason: A README file was written to provide clear instructions for project setup, usage, and contribution. This documentation ensures that the project is easier to understand, maintain, and reuse by other teams in the future.
+
+
+
+Poster @Poster FL (Team) - Reason: We designed a printed poster to visually summarize the project. This was displayed during the final presentation to provide a quick overview and attract interest from attendees.
+
+
+
+Results: We delivered a polished and professional video and website that together explain Federated Learning and showcase the results of our student research. The project received positive feedback for clarity, design, and educational value.
+
+
+
+Conclusion: This phase brought together all our work and allowed us to share it with a wider audience. Our deliverables now serve as a clear starting point for anyone interested in learning about Federated Learning.
+
+
+
+Next Step: Collect final feedback, archive the materials, and reflect on personal and professional lessons learned during the project.
+
+Sub-Research Questions – Answers:
+
+
+
+
+
+What key messages and visuals best explain Federated Learning to general audiences?
+
+Through benchmarking and literature analysis, we discovered that general audiences understand Federated Learning better when it is explained using everyday analogies, simplified terms, and visual metaphors. Concepts like "learning without sharing your data" or "collaborative training without central storage" were most effective. Diagrams showing local devices training individually and then combining results worked well, along with use-case examples like keyboard predictions or medical data protection.
+
+
+
+How do we ensure the video is both educational and engaging?
+
+From testing and stakeholder feedback, we learned that the video should be short (under 3 minutes), use a storytelling structure, and avoid heavy technical language. Animated illustrations, a clear narrator, and structured pacing (intro–problem–solution–impact) kept viewers engaged. Including student-driven cases and visual consistency also helped bridge clarity and interest.
+
+
+
+What website structure supports both showcasing and learning?
+
+Our research showed that separating sections by user goals (e.g., “What is Federated Learning?”, “Student Projects”, “Tools & Resources”) improved navigation. A clear homepage summary, scroll-based flow, and layered information (headlines first, then detailed blocks) allowed users to either explore deeply or get a quick overview. Visual hierarchy and consistent layout patterns also supported ease of learning.
+
+
+
+What content (student posters, use cases, demos) needs to be integrated?
+
+Stakeholder input and prototype testing confirmed the need to include real student work,, explanatory visuals, and relevant external resources. These elements create transparency, provide examples, and highlight how Federated Learning is used in practice. Grouping content by purpose (learn vs. explore vs. download) gave more structure and clarity.
+
+
+
+How do we ensure the platform is accessible and works well technically?
+
+Technical testing and user feedback led us to prioritize mobile responsiveness, keyboard navigation, and semantic HTML structure. We ensured good contrast ratios, alternative text for images, and flexible layouts. The site was tested on different browsers and devices to confirm functionality. Accessibility features, while basic, created a foundation for a more inclusive user experience.
+
+
+
+4. Conclusion
+
+This project demonstrated how user-centered design and visual storytelling can simplify complex technical topics like Federated Learning. By following the Double Diamond method, we kept our process structured and purposeful - from understanding user needs to delivering clear and meaningful solutions. Weekly check-ins and continuous feedback from stakeholders ensured we stayed aligned and made informed decisions throughout.
+
+Is the Problem Solved?
+Yes, we successfully delivered two key outcomes that meet the needs of our target audience:
+
+
+
+
+
+An introductory video that explains Federated Learning in simple terms using clear visuals - ideal for newcomers.
+
+
+
+A companion website that dives deeper into the technical details, showcases student projects, and provides supporting materials for more advanced users.
+
+Together, these outputs make Federated Learning more accessible and engaging for a wide range of users, from beginners to those with technical experience.
+
+Future Improvements
+To ensure the long-term value of this platform, we recommend the following next steps after the June 27 presentation:
+
+
+
+
+
+Collect structured user feedback from both students and educators.
+
+
+
+Improve content clarity based on what users find most helpful or confusing.
+
+
+
+Refine the website’s structure to better support learning paths for different user groups.
+
+
+
+Explore interactive features to enhance engagement, such as quizzes or explorable diagrams.
+
+What We Created
+
+
+
+
+
+A beginner-friendly introductory video about Federated Learning
+
+
+
+A comprehensive website including:
+
+
+
+
+
+A visual explanation of "What is Federated Learning?"
+
+
+
+Student project highlights, including posters and outcomes
+
+
+
+A visual workflow diagram illustrating Federated Learning
+
+
+
+Links to tools, posters, and reading materials
+
+What We Learned
+
+
+
+
+
+Clear visuals and simple language are powerful tools for communicating technical topics
+
+
+
+Managing two mediums (video and web) requires strong planning and coordination
+
+
+
+Ongoing feedback and teamwork are key to staying on track and improving results
+
+Final Thoughts
+This project confirms the importance of combining design thinking with technical storytelling. While our current solution meets its goals, future iterations - guided by real user input - can make it even stronger. With continued development, the platform has the potential to become a lasting educational tool that supports broader understanding and application of Federated Learning.
+
+
+
+5. Reflection
+
+Working on this project gave me a great opportunity to grow both as a designer and a team member. I learned how to explain complex topics, like Federated Learning, in a way that is clear and friendly to different types of users. Using the Double Diamond method helped me stay focused and break the work into clear steps - from understanding the problem to creating real solutions.
+
+One of the biggest things I learned was the power of visual storytelling. I saw how using simple words and images can help people understand technical ideas more easily. This was especially important for the video, where we had to explain FL to people who may not have a technical background.
+
+I also learned how to manage two different media - video and website - at the same time. It was a challenge to make sure both parts of the project worked well together, but it taught me a lot about planning and balancing tasks.
+
+Getting weekly feedback from stakeholders helped me see what was working and what needed to improve. It reminded me how important it is to test ideas early and often. I also enjoyed working with my team and learning from their skills and perspectives.
+
+Overall, this project made me more confident in my ability to take on real-world challenges. I now feel more prepared to design for both clarity and impact, especially when working on educational or technical topics. I’m proud of what we created, and I look forward to using what I’ve learned in future projects.
+
+By the end of June, we delivered two professional outcomes: a short video that explains FL clearly, and a website that showcases student efforts and connects different materials in one place.
+
+We are proud of how far we’ve come and excited to present the final results at the Innovation Inside Day!

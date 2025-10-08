@@ -187,6 +187,102 @@ export default function CaseStudy() {
     )
   }
 
+  if (project.slug === 'federai-website') {
+    return (
+      <>
+        <Section className="py-16">
+          <div className="max-w-2xl">
+            <Link to="/work" className="text-sm text-neutral-500 hover:underline">&larr; Back to work</Link>
+            <h1 className="mt-2 text-4xl font-semibold tracking-tight">{project.title}</h1>
+            <p className="mt-3 text-neutral-600">{project.summary}</p>
+            <div className="mt-4 flex flex-wrap gap-3 text-sm text-neutral-600">
+              <span className="rounded-full border px-3 py-1">{project.year}</span>
+              {project.role.map(r => <span key={r} className="rounded-full border px-3 py-1">{r}</span>)}
+              {project.stack.map(s => <span key={s} className="rounded-full border px-3 py-1">{s}</span>)}
+            </div>
+            <div className="mt-4 flex flex-wrap items-center gap-4 text-sm">
+              <a href="https://www.art-ie.eu/" target="_blank" rel="noreferrer" className="underline">Old site (ART-IE)</a>
+              <span aria-hidden>·</span>
+              <a href="https://federai.netlify.app/" target="_blank" rel="noreferrer" className="underline">Redesigned site (FederAI)</a>
+              <span aria-hidden>·</span>
+              <a href="/downloads/FederAI_Final_Technical_Report.pdf" target="_blank" rel="noreferrer" className="underline">Final Technical Report (PDF)</a>
+              <span aria-hidden>·</span>
+              <a href="/downloads/FederAI_Literature_Analysis.pdf" target="_blank" rel="noreferrer" className="underline">Literature Analysis (PDF)</a>
+              <span aria-hidden>·</span>
+              <a href="/downloads/FederAI_Reading_Guide.txt" target="_blank" rel="noreferrer" className="underline">Reading Guide (TXT)</a>
+            </div>
+          </div>
+        </Section>
+
+        <Section className="pb-24">
+          <article className="prose max-w-none">
+            <h2>Snapshot</h2>
+            <p><strong>Problem:</strong> Federated Learning is growing fast, but most public explanations are either too technical or too abstract.</p>
+            <p><strong>Outcome:</strong> A compact site + 2–3 minute video that explains <em>what FL is</em>, <em>why it matters</em>, and showcases student posters and use cases. Clear structure and accessibility checks.</p>
+
+            <h2>Context</h2>
+            <ul>
+              <li><strong>Role:</strong> Frontend, UX, Content</li>
+              <li><strong>Duration:</strong> Apr–Jun 2025 · ~8h/week</li>
+              <li><strong>Stakeholders:</strong> Art-IE research initiative (Fontys & Odisee)</li>
+            </ul>
+
+            <h2>Process</h2>
+            <ol>
+              <li><strong>Discover</strong> — stakeholder interviews, benchmarking, literature analysis</li>
+              <li><strong>Define</strong> — script outline, IA, content plan, role split (video vs web)</li>
+              <li><strong>Develop</strong> — first cut of video, website prototype in HTML/CSS/JS, feedback loops</li>
+              <li><strong>Deliver</strong> — final video + website, deployed on Netlify</li>
+            </ol>
+
+            <h2>Before / After</h2>
+            <div className="grid grid-cols-1 gap-6 not-prose">
+              <div>
+                <p className="mb-2 text-sm text-neutral-600">Home</p>
+                <BeforeAfter
+                  beforeSrc="/images/old-feder-home.svg"
+                  afterSrc="/images/federai-hero.svg"
+                  beforeLabel="Old"
+                  afterLabel="New"
+                  altBefore="Old federated learning home"
+                  altAfter="FederAI hero"
+                />
+              </div>
+              <div>
+                <p className="mb-2 text-sm text-neutral-600">Content layout</p>
+                <BeforeAfter
+                  beforeSrc="/images/old-feder-page.svg"
+                  afterSrc="/images/federai-hero.svg"
+                  beforeLabel="Old"
+                  afterLabel="New"
+                  altBefore="Old content"
+                  altAfter="New content"
+                />
+              </div>
+            </div>
+
+            <h2>Solution highlights</h2>
+            <ul>
+              <li>Clear “What is FL?” explainer with simple diagrams & copy.</li>
+              <li>Student posters & publications with filters.</li>
+              <li>Embedded short video for fast onboarding.</li>
+              <li>Responsive, accessible markup (alt text, contrast, keyboard navigation).</li>
+            </ul>
+
+            <h2>Impact</h2>
+            <ul>
+              <li>Better clarity for non-experts; site & video used on Innovation Day.</li>
+              <li>Clean navigation and discoverability for posters/publications.</li>
+            </ul>
+
+            <h2>What I’d improve next</h2>
+            <p>Add explorable diagrams (e.g., rounds, clients, aggregation) and quizzes; expand poster metadata + search.</p>
+          </article>
+        </Section>
+      </>
+    )
+  }
+
   return (
     <>
       <Section className="py-16">
