@@ -11,12 +11,12 @@
   },
   {
     "slug": "jsl-website-redesign",
-    "title": "JSL Library Website Redesign",
+    "title": "JSL3 Website Redesign (Ambianti Internship)",
     "role": ["Frontend", "UX"],
     "year": 2025,
-    "stack": ["React", "Tailwind"],
-    "summary": "Simplifying docs for mixed-experience users with an intuitive IA and clear code snippets.",
-    "hero": "/images/jsl-hero.webp",
+    "stack": ["JSL3", "HTML/CSS/JS", "Figma"],
+    "summary": "Redesigned the JSL3 website to improve navigation, onboarding, and learning tools—adding search, beginner guides, and a live Playground. Usability tests showed faster tasks and 100% completion.",
+    "hero": "/images/homejsl.png",
     "tags": ["uiux", "web", "research"]
   },
   {
