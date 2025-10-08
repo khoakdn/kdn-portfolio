@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+:root {
+  --brand: oklch(40% 0.08 260);
+}
+
+html, body, #root { height: 100%; }
+
+/* subtle selection */
+::selection { background: color-mix(in oklab, var(--brand) 30%, white); }

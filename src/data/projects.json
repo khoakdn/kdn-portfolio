@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "eindhoven-housing-viz",
+    "title": "Eindhoven Housing Visualization",
+    "role": ["Frontend", "Data Viz"],
+    "year": 2025,
+    "stack": ["React", "Tailwind", "Leaflet"],
+    "summary": "Helping expats compare neighborhoods quickly with a map-first UI.",
+    "hero": "/images/housing-hero.webp",
+    "tags": ["uiux", "web", "data-viz"]
+  },
+  {
+    "slug": "jsl-website-redesign",
+    "title": "JSL Library Website Redesign",
+    "role": ["Frontend", "UX"],
+    "year": 2025,
+    "stack": ["React", "Tailwind"],
+    "summary": "Simplifying docs for mixed-experience users with an intuitive IA and clear code snippets.",
+    "hero": "/images/jsl-hero.webp",
+    "tags": ["uiux", "web", "research"]
+  },
+  {
+    "slug": "design-system-seed",
+    "title": "Design System Seed",
+    "role": ["Frontend"],
+    "year": 2024,
+    "stack": ["React", "Tailwind"],
+    "summary": "A small, scalable set of UI primitives with tokens, states, and a11y baked in.",
+    "hero": "/images/ds-hero.webp",
+    "tags": ["uiux", "web"]
+  }
+]
