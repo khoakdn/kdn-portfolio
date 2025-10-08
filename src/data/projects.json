@@ -1,12 +1,31 @@
-    [
-      {
-        "slug": "eindhoven-housing-viz",
-        "title": "Eindhoven Housing Visualization",
-        "role": ["Frontend", "Data Viz"],
-        "year": 2025,
-        "stack": ["Leaflet", "Three.js"],
-        "summary": "Interactive maps for expats to compare neighborhoods.",
-        "tags": ["data-viz", "web", "uiux"]
-      }
-    ]
-    
+[
+  {
+    "slug": "eindhoven-housing-viz",
+    "title": "Eindhoven Housing Visualization",
+    "role": ["Frontend", "Data Viz"],
+    "year": 2025,
+    "stack": ["HTML/CSS/JS", "Leaflet", "Three.js"],
+    "summary": "Interactive maps to help expats compare neighborhoods by price, schools, parks, and amenities.",
+    "hero": "/images/housing-hero.svg",
+    "tags": ["uiux", "web", "data-viz"]
+  },
+  {
+    "slug": "jsl-website-redesign",
+    "title": "JSL3 Website Redesign (Ambianti Internship)",
+    "role": ["Frontend", "UX"],
+    "year": 2025,
+    "stack": ["JSL3", "HTML/CSS/JS", "Figma"],
+    "summary": "Redesigned the JSL3 website to improve navigation, onboarding, and learning tools—adding search, beginner guides, and a live Playground. Usability tests showed faster tasks and 100% completion.",
+    "hero": "/images/homejsl.png",
+    "tags": ["uiux", "web", "research"]
+  },
+  {
+    "slug": "design-system-seed",
+    "title": "Design System Seed",
+    "role": ["Frontend"],
+    "year": 2024,
+    "stack": ["React", "Tailwind"],
+    "summary": "A small, scalable set of UI primitives with tokens, states, and a11y baked in.",
+    "tags": ["uiux", "web"]
+  }
+]

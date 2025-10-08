@@ -1,23 +1,14 @@
 import { useState } from 'react'
 
-type Marker = {
-  x: number // 0..100
-  y: number // 0..100
-  title: string
-  body?: string
-}
+type Marker = { x: number; y: number; title: string; body?: string }
 
-export default function AnnotatedImage({
-  src, alt, markers
-}: { src: string, alt?: string, markers: Marker[] }) {
+export default function AnnotatedImage({ src, alt, markers }: { src: string; alt?: string; markers: Marker[] }) {
   const [open, setOpen] = useState<number | null>(null)
-
   return (
     <div className="relative rounded-2xl border overflow-hidden not-prose">
       <img src={src} alt={alt} className="block w-full" />
       {markers.map((m, i) => (
-        <div key={i} style={{ left: `${m.x}%`, top: `${m.y}%` }}
-          className="absolute -translate-x-1/2 -translate-y-1/2">
+        <div key={i} style={{ left: `${m.x}%`, top: `${m.y}%` }} className="absolute -translate-x-1/2 -translate-y-1/2">
           <button
             className="h-6 w-6 rounded-full bg-black/80 text-white text-xs leading-6 text-center shadow hover:bg-black"
             onMouseEnter={() => setOpen(i)} onMouseLeave={() => setOpen(null)}
