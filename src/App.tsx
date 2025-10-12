@@ -6,8 +6,12 @@ import About from './routes/About'
 import Contact from './routes/Contact'
 import Section from './components/Section'
 import Footer from './components/Footer'
+import { AnimatePresence } from 'framer-motion'
+import PageTransition from './components/PageTransition'
+import { useLocation } from 'react-router-dom'
 
 export default function App() {
+  const location = useLocation()
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur">
@@ -23,16 +27,22 @@ export default function App() {
       </header>
 
       <main className="flex-1">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/work/:slug" element={<CaseStudy />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/work/:slug" element={<CaseStudy />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </AnimatePresence>
       </main>
+
+      <PageTransition />
 
       <Footer />
     </div>
   )
 }
+
+
