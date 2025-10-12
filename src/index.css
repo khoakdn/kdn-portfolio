@@ -66,3 +66,13 @@ a.link::after{
   transition: transform .4s cubic-bezier(.22,1,.36,1);
 }
 a.link:hover::after{ transform: scaleX(1); }
+
+/* reduce motion: disable smooth scroll & big transitions */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within { scroll-behavior: auto; }
+  * { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+}
+
+/* optional: slightly stronger rule color on dark-on-white */
+.rule { background: rgba(0,0,0,.06); }
+
