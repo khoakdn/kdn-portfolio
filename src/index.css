@@ -5,3 +5,52 @@
 :root { --brand: oklch(40% 0.08 260); }
 html, body, #root { height: 100%; }
 ::selection { background: color-mix(in oklab, var(--brand) 30%, white); }
+/* --- minimal / zunedaalim-inspired theme --- */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root{
+  --page: #ffffff;
+  --ink: #0a0a0a;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+}
+
+body{
+  background: var(--page);
+  color: var(--ink);
+  font-family: Manrope, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* Hero display — spaced uppercase */
+.display{
+  font-family: "Space Grotesk", Manrope, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  letter-spacing: .32em;
+  text-transform: uppercase;
+}
+
+/* Small overline/kicker labels */
+.kicker{
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: var(--muted);
+}
+
+/* Thin divider rule */
+.rule{ height:1px; background: var(--line); }
+
+/* Subtle link underline */
+a.link{ text-decoration: none; border-bottom: 1px solid rgba(0,0,0,.15); }
+a.link:hover{ border-color: rgba(0,0,0,.5); }
+
+/* Section number + dot */
+.nb{ font-variant-numeric: tabular-nums; display:inline-flex; align-items:center; gap:.5rem; color:#6b7280; }
+.nb .dot{ width:.25rem; height:.25rem; background:#9ca3af; border-radius:999px; display:inline-block; }
+
+/* Minimal list-row (projects) */
+.list-row{
+  display:grid; grid-template-columns: 2rem 1fr auto;
+  gap:1rem; align-items:center; padding:.9rem 0; border-bottom:1px solid var(--line);
+}
+.list-row .title{ font-weight:500; }
+.list-row .meta{ color:var(--muted); font-size:.9rem; }
