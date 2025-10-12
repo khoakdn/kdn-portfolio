@@ -1,7 +1,7 @@
-import { motion, Variants } from "framer-motion"
+import { motion, Variants, cubicBezier } from "framer-motion"
 import type { PropsWithChildren } from "react"
 
-const ease = [0.22, 1, 0.36, 1]
+const ease = cubicBezier(0.22, 1, 0.36, 1)
 
 export const fadeUp: Variants = {
   hidden: { opacity: 0, y: 12 },
