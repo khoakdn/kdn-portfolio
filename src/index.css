@@ -74,3 +74,4 @@ a.link:hover::after{ transform: scaleX(1); }
 /* optional: slightly stronger rule color on dark-on-white */
 .rule { background: rgba(0,0,0,.06); }
 
+.display, .list-row, img { will-change: transform; }

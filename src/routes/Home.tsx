@@ -1,9 +1,12 @@
+// src/routes/Home.tsx
 import Section from '@/components/Section'
 import { allProjects } from '@/lib/projects'
 import { Link } from 'react-router-dom'
 import Overline from '@/components/Overline'
 import Availability from '@/components/Availability'
-import { M, MSection, fadeUp, fadeIn } from '@/components/motion'
+import RevealWords from '@/components/RevealWords'
+import Parallax from '@/components/Parallax'
+import { M, MSection, fadeUp, drawX } from '@/components/motion'
 
 export default function Home() {
   const projects = allProjects()
@@ -13,18 +16,21 @@ export default function Home() {
       {/* Hero */}
       <Section className="py-20 sm:py-28">
         <div className="max-w-3xl">
-          <M.div variants={fadeIn} initial="hidden" animate="show">
+          <M.div variants={fadeUp} initial="hidden" animate="show">
             <Availability />
           </M.div>
-          <M.h1
-            className="display mt-6 text-6xl sm:text-7xl md:text-8xl font-semibold leading-[0.9]"
-            variants={fadeUp} initial="hidden" animate="show"
-          >
-            K H O A<br className="hidden sm:block" /> N G U Y E N
-          </M.h1>
+
+          <Parallax>
+            <RevealWords
+              text={"K HOA\nN GUYEN".replace("\n"," ")}  // keep your spaced-uppercase look
+              className="display mt-6 whitespace-pre text-6xl sm:text-7xl md:text-8xl font-semibold leading-[0.9]"
+            />
+          </Parallax>
+
           <M.p className="mt-5 max-w-2xl text-neutral-700" variants={fadeUp} initial="hidden" animate="show" transition={{ delay: .1 }}>
             Frontend developer & UI/UX designer. I craft clean, minimal, and structured interfaces — with a focus on clarity, performance, and accessibility.
           </M.p>
+
           <M.div className="mt-6 flex items-center gap-6" variants={fadeUp} initial="hidden" animate="show" transition={{ delay: .2 }}>
             <a className="link" href="mailto:you@example.com">Contact ↗</a>
             <Link className="link" to="/work">Selected Works</Link>
